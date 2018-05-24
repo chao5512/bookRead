@@ -6,8 +6,8 @@ package src.algorithm.maxSub;
  * 时间复杂度为n的平方。n的三次方式怎么搞得
  * Created by wangchao on 2018/4/19.
  */
-public class T1 {
-    public int maxSub(int[] A){
+public class T1 extends FindMaxSub {
+    public int maxSub(int[] A,int s,int e){
         int maxSub = 0;
         int sum =0;
         for(int i =0; i<A.length; i++){
@@ -20,11 +20,5 @@ public class T1 {
             sum =0;
         }
         return maxSub;
-    }
-
-    public static void main(String[] args) {
-        T1 t1 = new T1();
-        int[] a = {1,-2,3,10,-4,7,2,-5};
-        System.out.println(t1.maxSub(a));
     }
 }

@@ -1,0 +1,2 @@
+className = src.reflect.readConf.Studetn
+methodName = show

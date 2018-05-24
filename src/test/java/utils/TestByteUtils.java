@@ -1,7 +1,6 @@
 package utils;
 
 import org.junit.Test;
-import sun.jvm.hotspot.runtime.Bytes;
 
 /**
  * Created by wangchao on 2017/11/6.
@@ -29,7 +28,7 @@ public class TestByteUtils {
     }
     @Test
     public void testBytesCompare(){
-        int i = hbase.Bytes.compareTo(A, 0, A.length, B, 0, B.length);
+        int i = src.hbase.Bytes.compareTo(A, 0, A.length, B, 0, B.length);
         System.out.println(i);
     }
     //空位补充零

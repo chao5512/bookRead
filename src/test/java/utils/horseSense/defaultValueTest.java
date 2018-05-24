@@ -1,7 +1,6 @@
 package utils.horseSense;
 
-import horseSense.DefaultValue;
-import org.junit.Assert;
+import src.horseSense.DefaultValue;
 import org.junit.Test;
 
 /**

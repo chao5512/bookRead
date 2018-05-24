@@ -15,4 +15,8 @@ public class TestTrick {
         //局部变量boolean如果没有显式初始化，在后面直接使用的话会编译期异常
         System.out.println("局部变量boolean未赋值直接使用会报错"+partFlag);
     }
+    @Test
+    public void printSomthing(){
+        System.out.println(System.getProperty("user.dir"));
+    }
 }
